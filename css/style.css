@@ -164,11 +164,14 @@ li {
 .team-statu {
   width: 9.2rem;
   margin: 0 auto;
-  padding: 0.66666667rem;
+  padding: 0.53333333rem;
+  padding-top: 0;
   font-size: 16px;
   color: #fcff00;
   position: relative;
-  margin-bottom: 0.66666667rem;
+  margin-top: 0.53333333rem;
+  margin-bottom: 0.53333333rem;
+  overflow: hidden;
 }
 [data-dpr="2"] .team-statu {
   font-size: 32px;
@@ -185,13 +188,14 @@ li {
 [data-dpr="4"] .team-statu {
   font-size: 64px;
 }
-.team-statu span {
+.team-statu > span {
   display: inline-block;
   width: 50%;
-  line-height: 0.45333333rem;
   text-align: center;
+  line-height: 0.45333333rem;
+  height: 0.45333333rem;
 }
-.team-statu span i {
+.team-statu > span i {
   display: inline-block;
   font-style: normal;
   margin-right: 0.2rem;
@@ -210,20 +214,27 @@ li {
   width: 100%;
   text-align: center;
   left: 0;
-  top: 0.66666667rem;
+  top: 0;
   line-height: 0.45333333rem;
+  height: 0.45333333rem;
 }
 .team-statu .icon-follow {
   width: 0.48rem;
-  height: 0.4rem;
+  height: 0.44rem;
   background: url("../images/follow_dot.png") center center no-repeat;
   background-size: cover;
+  vertical-align: top;
 }
 .team-statu .icon-team {
-  width: 0.45333333rem;
+  width: 0.48rem;
   height: 0.44rem;
   background: url("../images/team_dot.png") center center no-repeat;
   background-size: cover;
+  vertical-align: top;
+}
+.team-statu .icon-ft {
+  display: inline-block;
+  height: 0.44rem;
 }
 .main-content {
   padding-left: 0.4rem;
@@ -254,13 +265,9 @@ li {
   width: 12%;
   margin: 0 4%;
   background-size: 100% 100%;
-  /* background: -webkit-linear-gradient(top, transparent, #507f00);*/
   background: -webkit-gradient(linear, 0% top, 0% 5%, from(rgba(80, 127, 0, 0)), color-stop(0.1, rgba(80, 127, 0, 0.1)), to(#507f00));
-  /* Safari 5.1+, Chrome 10+ */
 }
 .main-content .content {
-  /*   background: linear-gradient(270deg, transparent 50%, #507f00 0%);
-    background-size: 70px 100%;*/
   position: relative;
   margin-top: -2.26666667rem;
 }
