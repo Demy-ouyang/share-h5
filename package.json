@@ -1,0 +1,25 @@
+{
+  "name": "share-h5",
+  "version": "1.0.0",
+  "description": "compition share HTML5 pages",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "go"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demy-ouyang/share-h5.git"
+  },
+  "keywords": [
+    "share"
+  ],
+  "author": "demy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demy-ouyang/share-h5/issues"
+  },
+  "homepage": "https://github.com/Demy-ouyang/share-h5#readme",
+  "devDependencies": {
+    "gulp-less": "^3.1.0"
+  }
+}

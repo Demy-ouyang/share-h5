@@ -79,9 +79,9 @@ li{
   width:12em;margin:0 auto; line-height: 1.2;
 }
 .team-statu{
-  .px2rem(width,690);margin:0 auto;.px2rem(padding,50);.px2px(font-size,32);color:@secColor;position: relative;.px2rem(margin-bottom,50);
-  span{
-    display: inline-block;width:50%;.px2rem(line-height,34); text-align: center;
+  .px2rem(width,690);margin:0 auto;.px2rem(padding,40);padding-top:0;.px2px(font-size,32);color:@secColor;position: relative;.px2rem(margin-top,40);.px2rem(margin-bottom,40);overflow: hidden;
+  &>span{
+    display: inline-block;width:50%;text-align: center;.px2rem(line-height,34); .px2rem(height,34);
     i{
       display: inline-block;font-style: normal;.px2rem(margin-right,15);vertical-align: sub;
     }
@@ -93,13 +93,16 @@ li{
     float: right;
   }
   .divide{
-    display: inline-block;font-style:normal;position: absolute;width:100%;text-align: center;left:0;.px2rem(top,50);.px2rem(line-height,34);
+    display: inline-block;font-style:normal;position: absolute;width:100%;text-align: center;left:0;top:0;.px2rem(line-height,34);.px2rem(height,34);
   }
   .icon-follow{
-    .px2rem(width,36); .px2rem(height,30);background: url("../images/follow_dot.png") center center no-repeat;background-size: cover;
+    .px2rem(width,36); .px2rem(height,33);background: url("../images/follow_dot.png") center center no-repeat;background-size: cover;vertical-align: top;
   }
   .icon-team{
-    .px2rem(width,34);.px2rem(height,33);background: url("../images/team_dot.png") center center no-repeat;background-size: cover;
+    .px2rem(width,36);.px2rem(height,33);background: url("../images/team_dot.png") center center no-repeat;background-size: cover;vertical-align: top;
+  }
+  .icon-ft{
+    display: inline-block;.px2rem(height,33);
   }
 }
 
@@ -116,19 +119,12 @@ li{
 ;*/.line-bg{
     display: block;float: left;height:100%;width:12%;margin:0 4%;
     background-size:100% 100%;
-   /* background: -webkit-linear-gradient(top, transparent, #507f00);*/
-    //background: -webkit-gradient(linear,0 50%,100% 50%,from(transparent),to(#507f00));
-    //background: -webkit-linear-gradient(top, transparent 5%, #507f00 0%);
-    //background: -webkit-gradient(linear,5% top,0 bottom,from(transparent), to(#507f00));
     background: -webkit-gradient(linear,0% top, 0% 5%, from(rgba(80,127,0,0)), color-stop(0.1, rgba(80,127,0,.1)),  to(rgba(80,127,0,1)));
-    /* Safari 5.1+, Chrome 10+ */
-     //background: -webkit-linear-gradient(top,transparent, #568a00 10%, #5b8f01 40%, #5a8f00 65%, #507f00);
+
   }
  }
 
   .content{
- /*   background: linear-gradient(270deg, transparent 50%, #507f00 0%);
-    background-size: 70px 100%;*/
     position: relative;.px2rem(margin-top,-170);
   }
 
